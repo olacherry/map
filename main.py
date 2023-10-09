@@ -4,7 +4,8 @@ from folium import plugins
 import pandas as pd
 import branca.colormap as cm
 import sys
-
+import site
+site.getsitepackages()
 pd.options.mode.chained_assignment = None
 
 
